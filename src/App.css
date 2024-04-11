@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.add {
+  background-color: #6ca439;
+  color: white;
+  margin: 2px 3px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.sub {
+  background-color: crimson;
+  color: white;
+  margin: 2px 3px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
