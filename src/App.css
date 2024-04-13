@@ -50,6 +50,39 @@
   cursor: pointer;
 }
 
+.box {
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  margin: 5px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  font-size: 13px;
+}
+
+.success {
+  background-color: greenyellow;
+}
+
+.warning {
+  background-color: coral;
+}
+
+.alert {
+  background-color: crimson;
+}
+
 .completed {
   text-decoration: line-through;
 }
